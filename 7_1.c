@@ -26,7 +26,6 @@ void search_in_file(const char *filename, const struct stat *stat_buf, const cha
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         fprintf(stderr, "Ошибка при откртии файла %s: %s\n", filename, strerror(errno));
-        print_file_attributes(filename, stat_buf);
         return;
     }
 
