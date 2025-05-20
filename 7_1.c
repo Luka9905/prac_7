@@ -8,7 +8,6 @@
 #include <pwd.h>
 #include <limits.h>
 #include <ctype.h>
-#include <grp.h>
 
 #define DEFAULT_DIR "~/files"
 #define INITIAL_BUF_SIZE 128
